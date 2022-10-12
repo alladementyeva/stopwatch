@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		CE97087828F3DA1800390B85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97087728F3DA1800390B85 /* AppDelegate.swift */; };
 		CE97087A28F3DA1800390B85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97087928F3DA1800390B85 /* SceneDelegate.swift */; };
-		CE97087C28F3DA1800390B85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97087B28F3DA1800390B85 /* ViewController.swift */; };
+		CE97087C28F3DA1800390B85 /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97087B28F3DA1800390B85 /* Stopwatch.swift */; };
 		CE97087F28F3DA1800390B85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE97087D28F3DA1800390B85 /* Main.storyboard */; };
 		CE97088128F3DA3000390B85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE97088028F3DA3000390B85 /* Assets.xcassets */; };
 		CE97088428F3DA3000390B85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE97088228F3DA3000390B85 /* LaunchScreen.storyboard */; };
+		CE97088E28F4936E00390B85 /* TableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97088D28F4936E00390B85 /* TableRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE97087428F3DA1700390B85 /* StopWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE97087728F3DA1800390B85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE97087928F3DA1800390B85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE97087B28F3DA1800390B85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE97087B28F3DA1800390B85 /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
 		CE97087E28F3DA1800390B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE97088028F3DA3000390B85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE97088328F3DA3000390B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE97088528F3DA3000390B85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE97088D28F4936E00390B85 /* TableRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,10 @@
 		CE97087628F3DA1700390B85 /* StopWatch */ = {
 			isa = PBXGroup;
 			children = (
+				CE97088D28F4936E00390B85 /* TableRow.swift */,
 				CE97087728F3DA1800390B85 /* AppDelegate.swift */,
 				CE97087928F3DA1800390B85 /* SceneDelegate.swift */,
-				CE97087B28F3DA1800390B85 /* ViewController.swift */,
+				CE97087B28F3DA1800390B85 /* Stopwatch.swift */,
 				CE97087D28F3DA1800390B85 /* Main.storyboard */,
 				CE97088028F3DA3000390B85 /* Assets.xcassets */,
 				CE97088228F3DA3000390B85 /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE97087C28F3DA1800390B85 /* ViewController.swift in Sources */,
+				CE97087C28F3DA1800390B85 /* Stopwatch.swift in Sources */,
+				CE97088E28F4936E00390B85 /* TableRow.swift in Sources */,
 				CE97087828F3DA1800390B85 /* AppDelegate.swift in Sources */,
 				CE97087A28F3DA1800390B85 /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +293,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StopWatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Секундомер";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -316,6 +321,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StopWatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Секундомер";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
